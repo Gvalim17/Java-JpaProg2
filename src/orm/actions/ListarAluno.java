@@ -7,7 +7,4 @@ import java.util.List;
 
 public class ListarAluno {
 
-    public List<Aluno> findAll() {
-        return EntityManager.createQuery("select a from Aluno as a");
-    }
 }
